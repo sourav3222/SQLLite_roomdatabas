@@ -68,7 +68,11 @@ class MainActivity : AppCompatActivity(), UserAdapter.HandelUserClick {
 
         dao.deleteUser(user)
 
+
         Toast.makeText(this, "${user.name}Delete Succesfully", Toast.LENGTH_SHORT).show()
+
+        setAllUser()
     }
+
 
 }
