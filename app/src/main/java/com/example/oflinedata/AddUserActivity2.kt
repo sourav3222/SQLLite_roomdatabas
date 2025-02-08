@@ -67,6 +67,7 @@ class AddUserActivity2 : AppCompatActivity() {
 
                 }else{
                     binding.BtnAdduserbtn.text = add
+
                 }
 
 
