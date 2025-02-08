@@ -44,6 +44,7 @@ class AddUserActivity2 : AppCompatActivity() {
 
          dao = db.getUserDao()
 
+
                 if (intent.hasExtra(editKey)){
 
                     binding.BtnAdduserbtn.text = update
@@ -101,6 +102,7 @@ class AddUserActivity2 : AppCompatActivity() {
         dao.updateUser(user)
 
         val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 
     private fun addUser(name: String,age: String,mobile: String){
