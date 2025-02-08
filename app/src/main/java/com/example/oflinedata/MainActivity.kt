@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity(), UserAdapter.HandelUserClick {
     }
 
 
+
     override fun onEditClick(user: User) {
 
         val editIntent = Intent(this@MainActivity, AddUserActivity2::class.java)
