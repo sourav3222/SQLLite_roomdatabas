@@ -70,4 +70,5 @@ class MainActivity : AppCompatActivity(), UserAdapter.HandelUserClick {
 
         Toast.makeText(this, "${user.name}Delete Succesfully", Toast.LENGTH_SHORT).show()
     }
+
 }
